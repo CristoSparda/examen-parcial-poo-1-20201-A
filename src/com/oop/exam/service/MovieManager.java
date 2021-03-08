@@ -11,6 +11,19 @@ public class MovieManager {
         this.movies = new LinkedList<>();
     }
 
+    public void addMovie(Movie movie){
+        movies.add(movie);
+    }
+
+    public String findMovie(String Movie){
+        while(com.oop.exam.model.Movie.class.getName() == Movie)
+        {
+    }
+
+
+
+
+
     public LinkedList<Movie> getMovies() {
         return movies;
     }
